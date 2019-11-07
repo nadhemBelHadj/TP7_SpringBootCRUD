@@ -16,15 +16,15 @@
 <form action="updateProduit" method="post">
    <div class="form-group">
       <label class="control-label">ID Produit :</label>
-       <input type="text" name="idProduit" value=${produit.idProduit } readonly class="form-control"/>
+       <input type="text" name="idProduit" value="${produit.idProduit }" readonly class="form-control"/>
     </div>	
    <div class="form-group">
       <label class="control-label">Nom Produit :</label>
-       <input type="text" name="nomProduit" value=${produit.nomProduit } class="form-control"/>
+       <input type="text" name="nomProduit" value="${produit.nomProduit }" class="form-control"/>
     </div>	
      <div class="form-group">
       <label class="control-label">Prix Produit :</label>
-       <input type="text" name="prixProduit" value=${produit.prixProduit } class="form-control"/>
+       <input type="text" name="prixProduit" value="${produit.prixProduit }" class="form-control"/>
     </div>		
     <div>
  		  <button type="submit" class="btn btn-primary">Modifier</button>
